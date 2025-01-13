@@ -1,0 +1,8 @@
+alembic #automate any database migrations like updating the databse schema 
+# to init run: alembic init alembic
+#run alembic revision --autogenerate -m "Add due_date column"
+# to apply migration run alembic upgrade head
+flask
+flask_sqlalchemy
+models
+config
